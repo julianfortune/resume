@@ -1,0 +1,41 @@
+\documentclass{article}
+\usepackage{scimisc-cv}
+
+\title{
+    $name$'s Resumé
+}
+\author{
+    $name$
+}
+
+%% These are custom commands defined in scimisc-cv.sty
+\cvname{
+    $name$
+}
+\cvpersonalinfo{
+    $if(phone)$
+        $phone$ \cvinfosep%
+    $endif$
+    \link{mailto:$email$}{$email$}%%  % Email is required
+    $if(github)$
+        \cvinfosep \link{http://github.com/$github$}{github}%
+    $endif$
+    $if(linkedin)$
+        \cvinfosep \link{http://linkedin.com/in/$linkedin$}{linkedin}%
+    $endif$
+    \par\vspace{-10pt}
+}
+
+%
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+\begin{document}
+
+\large
+
+\makecvtitle
+
+$body$
+
+\end{document}

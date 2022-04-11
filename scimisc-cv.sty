@@ -1,4 +1,14 @@
 % Quickly hacked together from .docx sample provided by Scimisc
+\RequirePackage[compact,small,explicit]{titlesec}
+\RequirePackage{enumitem}
+\RequirePackage{geometry}
+\RequirePackage{hyperref}
+\RequirePackage{needspace}
+\RequirePackage{parskip}
+\RequirePackage{textcase}
+\RequirePackage{xcolor}
+\RequirePackage{xparse}
+
 \RequirePackage{ifpdf,ifxetex,ifluatex}
 \ifpdf
   \RequirePackage{cmap}
@@ -12,52 +22,62 @@
   \pdfgentounicode=1
 \fi
 
-\RequirePackage{caladea}
-\RequirePackage{carlito}
-\renewcommand{\familydefault}{\sfdefault}
+% Mono font
+% \usepackage{noto}
+\usepackage{courier}
+% \usepackage[ttdefault=true]{AnonymousPro}
 
-\RequirePackage{geometry}
-\RequirePackage{parskip}
-\RequirePackage{enumitem}
-\RequirePackage{textcase}
-\RequirePackage{xparse}
-\RequirePackage{needspace}
-\RequirePackage[compact,small,explicit]{titlesec}
+
+% Sans font
+% \usepackage[sfdefault]{atkinson}
+\usepackage[sfdefault]{cabin}
+% \usepackage[default]{raleway}
+% \usepackage{nunito}
+% \RequirePackage{carlito}
+% \usepackage[sfdefault]{quattrocento}
+% \usepackage[sfdefault]{inter} % Not working locally -- try with image
+
+\renewcommand*\familydefault{\sfdefault}
+\usepackage[T1]{fontenc}
+
+
+\hypersetup{colorlinks=true, urlcolor=black}
 
 \def\scimisc@cvname{}
 \def\scimisc@cvpersonalinfo{}
-\def\cvinfosep{\hfill|\hfill{}}
+\def\cvinfosep{// {}}
 
 \newcommand{\cvname}[1]{\def\scimisc@cvname{#1}}
 \newcommand{\cvpersonalinfo}[1]{\def\scimisc@cvpersonalinfo{#1}}
 
-\newcommand{\cvtitlefamily}{\rmfamily}
-\newcommand{\cvnamefont}{\cvtitlefamily\huge\bfseries}
-\newcommand{\cvpersonalinfofont}{\normalsize}
+\newcommand{\cvnamefont}{\huge\bfseries}
+\newcommand{\cvpersonalinfofont}{\normalsize\ttfamily}
 
 \newcommand{\makecvtitle}{%
   \begin{center}
       {\cvnamefont\MakeTextUppercase{\scimisc@cvname}\par}
-      \vskip4pt\hrule height 0.6pt \relax
       {\cvpersonalinfofont\scimisc@cvpersonalinfo\par}
   \end{center}\medskip
 }
 
-\NewDocumentCommand{\cvsubsection}{m o o o}{%
-%   \vspace{\parskip}%
-  \needspace{4\baselineskip}%
-  \textbf{#1}%
-  \IfValueT{#2}{\hfill\textbf{#2}}%
-  \IfValueT{#3}{\IfValueT{#4}{\\}}%
-  \IfValueT{#3}{\emph{#3}}%
-  \IfValueT{#4}{\hfill\emph{#4}}
-  \par\vspace{-\parskip}
+\newcommand{\experience}[3]{%
+  % \needspace{4\baselineskip}%
+  \vspace{5pt}%
+  \textbf{#1} --- #2\hfill#3%
+  \par\vspace{-4pt}
 }
 
-\geometry{a4paper,margin=0.5in}
-\titleformat{\section}
-  {\bfseries\rmfamily\large}{\thesection}{0pt}{\MakeTextUppercase{#1}}[{\titlerule[0.6pt]}]
-\setlist{leftmargin=*,nosep}
+\newcommand{\link}[2]{%
+  \href{#1}{\underline{\smash{#2}}}
+}
 
+% Adjust the formatting of section headers
+\titleformat{\section}%
+  {\Large}{\thesection}{0pt}{\MakeTextUppercase{#1}}[{\color{gray}\titlerule[0.5pt]}]
+\titlespacing{\section}{0pt}{5pt}{5pt}  % left / above / below
+
+
+\setlist{leftmargin=*,nosep}
+\geometry{a4paper,margin=0.5in}
 \pagestyle{empty}
 \setcounter{secnumdepth}{0}
