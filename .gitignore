@@ -302,3 +302,6 @@ TSWLatexianTemp*
 
 # OS files
 .DS_Store
+
+# Build folder
+build/
