@@ -32,4 +32,4 @@ latex: build
 	pandoc --from=markdown --to=latex --template=template.tex --output=$(RESUME_LATEX) --standalone resume.md
 
 pdf: latex
-	latexmk $(RESUME_LATEX) -pdf -output-directory=$(BUILD_DIR)
+	latexmk $(RESUME_LATEX) -pdf -output-directory=$(BUILD_DIR) --silent
