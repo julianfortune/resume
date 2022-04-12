@@ -35,28 +35,28 @@ linkedin: julianfortune
 
 \experience{Skyworks Solutions}{Machine Learning Co-op}{January 2021 -- June 2021}
  
-- Assisting with experiments, overseeing cloud resources (e.g., MongoDB), & writing tests in Python.
+- Assisted with experiments, oversaw cloud resources (e.g., MongoDB), & wrote tests.
+- Created a weighted finite-state transducer library that supports on-the-fly composition with filters.
 
 
 \experience{%
     \link{https://lucid.co}{Lucid Software}%
 }{Software Engineering Intern}{June 2020 -- September 2020}
 
-- Aided in developing an algorithm to classify hand-drawn shapes and identify squiggles.
+- Participated in a hand-drawn shape detection hackathon project which came in 1st place.
 - Redesigned the paywall system using Angular and Typescript to support a suite of products.
-
+- Modified endpoints and models in Scala to support new front-end features.
 
 \experience{Oregon Health \& Science University}{Volunteer Software Engineer}{November 2019 -- June 2021}
 
-- Creating a computer vision system and desktop application using Python, OpenCV, and PyQt.
-
+- Created an application to digitize electrocardiograms using `OpenCV` and `PyQt` ([source](https://github.com/Tereshchenkolab/paper-ecg)).
 
 <!-- \experience{Oregon State University}{Teaching Assistant}{September 2019 -- December 2020}
 
 - Leading labs of 30+ students, grading, and assisting students with Computer Science courses. -->
 
 
-\experience{Human-Machine Teaming Laboratory, CoRIS}{Research Assistant}{February 2018 -- Present}
+\experience{Human-Machine Teaming Laboratory, CoRIS}{Research Assistant}{February 2018 -- June 2020}
 
 - Designed, developed, and validated an algorithm that estimates workload in real-time based on audio features and a neural network built using `TensorFlow` & `TFLearn` libraries, written in `Python`.
 
@@ -73,14 +73,7 @@ linkedin: julianfortune
 
 # Projects
 - **[Functional-C](https://github.com/julianfortune/CS381Project)**: Statically-typed, interpreted, side-effect-free language written in Haskell.
-- **Tweet Sentiment Extraction**: Classifies the sentiment of tweets using a highly-modified
-version of a Naïve Bayes classifier and intelligent pre-processing. Achieved a .66 accuracy score.
 - **[Jumble](https://julianfortune.com/unjumble/)**: A JS app for unscrambling 'jumbled’ words and listing all matches instantaneously.
-
-
-# Awards
-- **1st Place Team in Lucid Hackathon** --- Lucid Software August 2020 
-- **College of Engineering Dean’s List** --- Oregon State University September 2018 -- Present
 
 
 # Skills
@@ -99,5 +92,8 @@ Haskell,
 Linux,
 Docker,
 Git,
+Gitlab CI,
 Make,
+RabbitMQ,
+MongoDB,
 & PyTorch.
