@@ -2,9 +2,8 @@ BUILD_DIR = ./build
 RESUME_LATEX = $(BUILD_DIR)/resume.tex
 
 clean:
-	@rm -rf $(BUILD_DIR) || \
-	\
-	rm \
+	@rm -rf $(BUILD_DIR)
+	@rm \
 	*.aux \
 	*.lof \
 	*.log \
@@ -33,4 +32,4 @@ latex: build
 	pandoc --from=markdown --to=latex --template=template.tex --output=$(RESUME_LATEX) --standalone resume.md
 
 pdf: latex
-	latexmk $(RESUME_LATEX) -pdf -output-directory=$(BUILD_DIR) --silent
+	latexmk $(RESUME_LATEX) -pdf -output-directory=$(BUILD_DIR)

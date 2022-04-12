@@ -10,22 +10,28 @@ linkedin: julianfortune
 
 \experience{Oregon State University}{Honors Bachelor of Science}{Graduated June 2021}
 
-- Computer Science major focusing on Artificial Intelligence with a `4.0` GPA.
+- Computer Science major focusing on Artificial Intelligence with a 4.0 GPA.
 <!-- - Relevant courses: Parallel Programming, Android Development, & Deep Learning -->
 <!-- - Clubs: App Dev Club president & graphic designer, and Artificial Intelligence Club member. -->
 
 # Experience
 
-\experience{\link{http://agot.ai}{Agot AI}}{Data Team Lead}{January 2022 -- Present}
+\experience{%
+    \link{http://agot.ai}{Agot AI}%
+}{Data Team Lead}{January 2022 -- Present}
  
 - Architecting data processing pipelines (built using `kubeflow`) for video and annotation data.
 - Designing and implementing numerous translators for tracking and classification data.
-- Supervising half a dozen individuals while also filling the roles of _product owner_ and _scrum master_.
+- Supervising half a dozen individuals and standing in as the team's product owner and scrum master.
 
-\experience{\link{http://agot.ai}{Agot AI}}{Software Engineer}{June 2021 -- January 2022}
+
+\experience{%
+    \link{http://agot.ai}{Agot AI}%
+}{Software Engineer}{June 2021 -- January 2022}
  
-- Reverse-engineering a system consiting of `kotlin`-based android application and `js` microservices.
 - Designing and implementing containerized microservices in `Python` communicating via `rabbitmq`.
+- Reverse-engineering a system consiting of `kotlin`-based android application and `js` microservices.
+
 
 \experience{Skyworks Solutions}{Machine Learning Co-op}{January 2021 -- June 2021}
  
@@ -66,10 +72,10 @@ linkedin: julianfortune
 
 
 # Projects
-- **Functional-C**: Statically-typed, interpreted, side-effect-free language written in Haskell.
-- **Tweet Sentiment Extraction (Kaggle)**: Classifies the sentiment of tweets using a highly-modified
+- **[Functional-C](https://github.com/julianfortune/CS381Project)**: Statically-typed, interpreted, side-effect-free language written in Haskell.
+- **Tweet Sentiment Extraction**: Classifies the sentiment of tweets using a highly-modified
 version of a Naïve Bayes classifier and intelligent pre-processing. Achieved a .66 accuracy score.
-- **Jumble**: A JS app for unscrambling 'jumbled’ words and listing all matches instantaneously.
+- **[Jumble](https://julianfortune.com/unjumble/)**: A JS app for unscrambling 'jumbled’ words and listing all matches instantaneously.
 
 
 # Awards
@@ -79,25 +85,19 @@ version of a Naïve Bayes classifier and intelligent pre-processing. Achieved a 
 
 # Skills
 - **LANGUAGES**: 
-Swift, 
-Python, 
-Kotlin, 
-Scala, 
-C++, 
-C, 
-C#, 
-Typescript, 
-Haskell, 
-JS, 
-SQL, 
-& Golang. 
+Python,
+Kotlin,
+Scala,
+Swift,
+C++,
+C,
+Typescript,
+Haskell,
+& JS.
 
-- **TECH**: 
-Linux, 
-MongoDB, 
-Git, 
-Angular, 
-PyTorch, 
-TensorFlow, 
-OpenCV, 
-& CUDA.
+- **TOOLS**: 
+Linux,
+Docker,
+Git,
+Make,
+& PyTorch.

@@ -1,40 +1,125 @@
+% Adapted from: "Scismic's Recommended CV Template for Biotech and Pharma Jobs" by Scismic and Overleaf, licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), accessed April 10, 2020 from [Overleaf](https://www.overleaf.com/latex/templates/scismics-recommended-cv-template-for-biotech-and-pharma-jobs/hbnkjrjnnpjz)
+
+
 \documentclass{article}
-\usepackage{scimisc-cv}
 
-\title{
-    $name$'s Resumé
-}
-\author{
-    $name$
-}
 
-%% These are custom commands defined in scimisc-cv.sty
-\cvname{
-    $name$
-}
-\cvpersonalinfo{
-    $if(phone)$
-        $phone$ \cvinfosep%
-    $endif$
-    \link{mailto:$email$}{$email$}%%  % Email is required
-    $if(github)$
-        \cvinfosep \link{http://github.com/$github$}{github}%
-    $endif$
-    $if(linkedin)$
-        \cvinfosep \link{http://linkedin.com/in/$linkedin$}{linkedin}%
-    $endif$
-    \par\vspace{-10pt}
-}
+%% Dependencies %%
 
-%
+\RequirePackage[compact,small,explicit]{titlesec}  % Used for `titleformat`
+\RequirePackage{enumitem}
+\RequirePackage{geometry}
+\RequirePackage{hyperref}
+\RequirePackage{parskip}
+\RequirePackage{textcase}
+\RequirePackage{xcolor}
+
+% Depended upon by `pandoc`'s markdown conversion
 \providecommand{\tightlist}{%
   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
 
+
+%% Fonts %%
+
+% Mono font
+\usepackage{courier}
+% \usepackage[ttdefault=true]{AnonymousPro}
+
+% Sans font
+% \usepackage[sfdefault]{atkinson}
+\usepackage[sfdefault]{cabin}
+% \usepackage[default]{raleway}
+% \usepackage{nunito}
+% \RequirePackage{carlito}
+% \usepackage[sfdefault]{quattrocento}
+% \usepackage[sfdefault]{inter} % Not working locally -- try with image
+
+\renewcommand*\familydefault{\sfdefault}
+\usepackage[T1]{fontenc}
+
+
+%% Configuration %%
+
+\geometry{a4paper,margin=0.5in}
+\pagestyle{empty}
+\setcounter{secnumdepth}{0}
+
+\setlist{leftmargin=*,nosep}
+
+% Turn off ugly blue boxes
+\hypersetup{colorlinks=true, urlcolor=black}
+
+% Adjust the formatting of section headers
+\titleformat{\section}%
+  {\Large}{\thesection}{0pt}{\MakeTextUppercase{#1}}[{\color{gray}\titlerule[0.5pt]}]
+\titlespacing{\section}{0pt}{5pt}{5pt}  % left / above / below
+
+% Store a reference to the original `href` command
+% Source: https://tex.stackexchange.com/a/47353
+\let\defaultref\href
+
+% Override `href` to add an underline
+\renewcommand{\href}[2]{%
+  \defaultref{#1}{\underline{\smash{#2}}}
+}
+
+
+%% Commands %%
+
+\newcommand{\link}[2]{%
+  \href{#1}{\underline{\smash{#2}}}
+}
+
+\def\separator{· {}}
+
+\newcommand{\name}[1]{%
+  \begin{center}
+      {\huge\bfseries\MakeTextUppercase{#1}\par}
+      \vspace{-5pt}%
+  \end{center}\medskip
+}
+
+\newcommand{\personalinfo}[1]{%
+  \begin{center}
+    {\normalsize#1\par}
+    \par\vspace{-5pt}
+  \end{center}\medskip
+}
+
+\newcommand{\experience}[3]{%
+  \vspace{5pt}%
+  \textbf{#1} --- #2\hfill#3%
+  \par\vspace{-4pt}
+}
+
+
+%% Document metadata %%
+% NOTE: Variables come from markdown front-matter via `pandoc` conversion.
+
+\title{$name$'s Resumé}
+\author{$name$}
+
+
+%% Document definition %%
+
 \begin{document}
 
-\large
+% These are custom commands defined above
+\name{$name$}
+\personalinfo{%
+    $if(phone)$
+        $phone$ \separator%
+    $endif$
+    \link{mailto:$email$}{$email$}%%  % Email is required
+    $if(github)$
+        \separator \link{http://github.com/$github$}{github.com/$github$}%
+    $endif$
+    $if(linkedin)$
+        \separator \link{http://linkedin.com/in/$linkedin$}{LinkedIn}%
+    $endif$
+}
 
-\makecvtitle
+\large
 
 $body$
 
