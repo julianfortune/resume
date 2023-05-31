@@ -1,0 +1,277 @@
+% Adapted from: "Scismic's Recommended CV Template for Biotech and Pharma Jobs" by Scismic and Overleaf, licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), accessed April 10, 2020 from [Overleaf](https://www.overleaf.com/latex/templates/scismics-recommended-cv-template-for-biotech-and-pharma-jobs/hbnkjrjnnpjz)
+
+\documentclass[11pt]{article} % `11pt` can be removed if running out of room
+
+
+%% Dependencies %%
+
+\usepackage{enumitem}
+\usepackage{geometry}
+\usepackage{microtype}
+\usepackage{hyperref}
+\usepackage{paracol}
+\usepackage{parskip}
+\usepackage{soul}  % \ul
+\usepackage{textcase}
+\usepackage[compact,small,explicit]{titlesec}  % Used for `titleformat`
+\usepackage[x11names]{xcolor}
+
+% Depended upon by `pandoc`'s markdown conversion
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{3pt}}
+
+
+%% Fonts %%
+
+\usepackage[defaultsans]{cantarell}
+% Changes the default font family to sans-serif (instead of serif)
+\renewcommand*\familydefault{\sfdefault}
+% Force using an 8-bit encoding (instead of 7)
+\usepackage[T1]{fontenc}
+
+
+%% Formatting Configuration %%
+
+\setlist{leftmargin=*,nosep}
+
+% Make `\ul` from `soul` look like standard underline
+\setul{1pt}{.4pt}
+
+% Turn off ugly blue boxes for links
+\hypersetup{colorlinks=true, urlcolor=black}
+
+
+%% Format [Sub*]Section Headers %%
+
+% Adjust the formatting of section headers
+\titleformat{\section}% TODO: Document these bits
+  {\Large}%
+  {\thesection}%
+  {0pt}%
+  {%
+    {\fontfamily{Nunito-TLF}\selectfont\textls[15]{%
+      \MakeTextUppercase{#1}%
+    }}%
+  }%
+  [{\color{gray}\titlerule[0.5pt]}]
+
+\titlespacing{\section}{0pt}{10pt}{5pt}  % left / above / below
+
+
+%% Commands %%
+
+% Store a reference to the original `href` command
+% Source: https://tex.stackexchange.com/a/47353
+\let\defaultref\href
+
+% Override `href` to add an underline via `\ul`, which fixes underlines without
+% needing to use `\smash`--which breaks padding
+\renewcommand{\href}[2]{%
+  \defaultref{#1}{\ul{#2}}%
+}
+
+\newcommand{\link}[2]{\href{#1}{#2}}
+
+% Override `href` to add an underline via `\ul`, which fixes underlines without
+% needing to use `\smash`--which breaks padding
+\renewcommand{\emph}[1]{%
+  \textcolor{gray}{#1}%
+}
+
+% Byline with contact info / links
+\def\separator{ · {}}
+
+\newcommand{\name}[1]{%
+  \begin{center}
+      {\huge\bfseries\MakeTextUppercase{#1}\par}
+  \end{center}
+}
+
+\newcommand{\experience}[3]{%
+  \vspace{5pt}%
+  \textbf{#1}\separator#2\hfill%
+  \textcolor{gray}{#3}%
+}
+
+
+%% Document Configuration %%
+
+\geometry{a4paper,margin=0.5in}
+\pagestyle{empty}
+\setcounter{secnumdepth}{0}
+
+
+%% Document metadata %%
+% NOTE: Variables come from markdown front-matter via `pandoc` conversion.
+
+\title{Julian Fortune's Resumé}
+\author{Julian Fortune}
+
+
+%% Document definition %%
+
+\begin{document}
+
+% Name (title)
+\begin{bfseries}\begin{huge}
+  {\fontfamily{Nunito-TLF}\selectfont%
+    \MakeTextUppercase{Julian Fortune}
+  }
+\end{huge}\end{bfseries}
+
+% Contact info
+  \link{https://julianfortune.com}{Contact}\separator%
+% Public info
+    \link{http://github.com/julianfortune}{GitHub}\separator%
+\link{http://linkedin.com/in/julianfortune}{LinkedIn}%
+
+\columnratio{0.65}%
+\begin{paracol}{2}
+\begin{raggedright}
+
+\hypertarget{experience}{%
+\section{Experience}\label{experience}}
+
+\experience{Disney Streaming}{Software Engineer}{June 2022 -- Present}
+
+\begin{itemize}
+\tightlist
+\item
+  Member of the Streaming Data Platform team, which provides a suite of
+  internal tools for producing and consuming asynchronous events over
+  Kinesis such that compatibility is guaranteed.
+\item
+  Implemented a Python backend (i.e., generates Python code) for the
+  team's code generation pipeline.
+\item
+  Added features to the Scala, Java, \& Python SDK's, as well as the
+  team's various integration services.
+\item
+  Analyzed and optimized AWS infrastructure usage resulting in annual
+  cost reductions over \$1M.
+\item
+  Created dashboards and response plans that enabled faster resolutions
+  to production incidents.
+\item
+  Wrote documentation and created an internal tool to reduce friction
+  for platform users.
+\end{itemize}
+
+\experience{Agot AI}{Team Lead}{Jan 2022 -- June 2022}
+
+\begin{itemize}
+\tightlist
+\item
+  Led the Data team, which produced videos and labels for training
+  models.
+\item
+  Designed schemas and translators for object tracking and
+  classification annotations.
+\item
+  Advocated for strong typing, pure functions, and immutability.
+\end{itemize}
+
+\experience{Agot AI}{Software Engineer}{June 2021 -- Jan 2022}
+
+\begin{itemize}
+\tightlist
+\item
+  Designed and implemented containerized microservices in Python
+  communicating via RabbitMQ.
+\item
+  Reverse-engineered a system consisting of Kotlin-based android app and
+  microservices.
+\end{itemize}
+
+\experience{Skyworks Solutions}{Machine Learning Intern}{Jan 2021 -- June 2021}
+
+\begin{itemize}
+\tightlist
+\item
+  Performed machine learning experiments, oversaw cloud resources (e.g.,
+  MongoDB), \& wrote tests.
+\item
+  Created a weighted finite-state transducer library that supports
+  on-the-fly composition with filters.
+\end{itemize}
+
+\experience{Lucid Software}{Software Engineering Intern}{June 2020 -- Sep 2020}
+
+\begin{itemize}
+\tightlist
+\item
+  Redesigned the paywall system using Angular and Typescript to support
+  a suite of products.
+\item
+  Modified endpoints and models in backend (Scala) to support new
+  front-end features.
+\item
+  Participated in a hand-drawn shape detection hackathon project which
+  came in 1st place.
+\end{itemize}
+
+\experience{CBTNuggets}{Software Engineering Intern}{June 2018 -- June 2019}
+
+\begin{itemize}
+\tightlist
+\item
+  Debugged, fixed crashes, implemented features, and wrote tests for
+  iOS, tvOS, and UWP apps.
+\end{itemize}
+
+\switchcolumn
+
+\hypertarget{education}{%
+\section{Education}\label{education}}
+
+\hypertarget{oregon-state-university}{%
+\subsection{Oregon State University}\label{oregon-state-university}}
+
+B.S., Computer Science\\
+\emph{June 2021}
+
+Relevant courses: Programming Language Fundamentals (Haskell) \& Deep
+Learning
+
+\hypertarget{projects}{%
+\section{Projects}\label{projects}}
+
+\hypertarget{functional-c}{%
+\subsection{\texorpdfstring{\href{https://github.com/julianfortune/CS381Project}{Functional-C}}{Functional-C}}\label{functional-c}}
+
+Statically-typed, interpreted, side-effect-free language written in
+Haskell.
+
+\hypertarget{paperecg}{%
+\subsection{\texorpdfstring{\href{https://github.com/Tereshchenkolab/paper-ecg}{PaperECG}}{PaperECG}}\label{paperecg}}
+
+An application that digitizes electrocardiograms built with OpenCV and
+PyQt.
+
+\hypertarget{jumble}{%
+\subsection{\texorpdfstring{\href{https://julianfortune.com/unjumble/}{Jumble}}{Jumble}}\label{jumble}}
+
+A JS app for unscrambling `jumbled' words and listing all matches
+instantaneously.
+
+\hypertarget{publications}{%
+\section{Publications}\label{publications}}
+
+\hypertarget{real-time-speech-workload-estimation-for-intelligent-human-machine-systems}{%
+\subsubsection{Real-Time Speech Workload Estimation for Intelligent
+Human-Machine
+Systems}\label{real-time-speech-workload-estimation-for-intelligent-human-machine-systems}}
+
+\emph{Accepted to Human Factors and Ergonomics Society Annual Meeting,
+2020. Co-authored with Dr.~Jamison Heard and Dr.~Julie A. Adams}
+
+\hypertarget{real-time-speech-workload-estimation}{%
+\subsubsection{Real-time Speech Workload
+Estimation}\label{real-time-speech-workload-estimation}}
+
+\emph{Undergraduate Honors Thesis, May 2020}
+
+\end{raggedright}
+\end{paracol}
+
+\end{document}
