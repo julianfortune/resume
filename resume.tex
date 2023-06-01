@@ -1,6 +1,6 @@
 % Adapted from: "Scismic's Recommended CV Template for Biotech and Pharma Jobs" by Scismic and Overleaf, licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), accessed April 10, 2020 from [Overleaf](https://www.overleaf.com/latex/templates/scismics-recommended-cv-template-for-biotech-and-pharma-jobs/hbnkjrjnnpjz)
 
-\documentclass[11pt]{article} % `11pt` can be removed if running out of room
+\documentclass[12pt]{article} % decrease fontsize to `10pt` or `11pt` to make more room
 
 
 %% Dependencies %%
@@ -18,7 +18,7 @@
 
 % Depended upon by `pandoc`'s markdown conversion
 \providecommand{\tightlist}{%
-  \setlength{\itemsep}{0pt}\setlength{\parskip}{3pt}}
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
 
 
 %% Fonts %%
@@ -41,9 +41,9 @@
 \hypersetup{colorlinks=true, urlcolor=black}
 
 
-%% Format [Sub*]Section Headers %%
+%% Format Headers %%
 
-% Adjust the formatting of section headers
+% Set custom formatting for H1
 \titleformat{\section}% TODO: Document these bits
   {\Large}%
   {\thesection}%
@@ -55,8 +55,15 @@
   }%
   [{\color{gray}\titlerule[0.5pt]}]
 
+% Increase H1 margin-top
 \titlespacing{\section}{0pt}{10pt}{5pt}  % left / above / below
 
+% Increase H2 margin-top
+\titlespacing{\subsection}{0pt}{8pt}{5pt}  % left / above / below
+
+% Make H3's gray
+\titleformat{\subsubsection}
+   {\normalfont\bfseries}{\thesection}{1em}{\textcolor{gray}{#1}}
 
 %% Commands %%
 
@@ -132,7 +139,10 @@
 \hypertarget{experience}{%
 \section{Experience}\label{experience}}
 
-\experience{Disney Streaming}{Software Engineer}{June 2022 -- Present}
+\hypertarget{disney-streaming-software-engineer-june-2022-present}{%
+\subsection{\texorpdfstring{Disney Streaming \emph{· Software Engineer
+\hfill June 2022 --
+Present}}{Disney Streaming · Software Engineer June 2022 -- Present}}\label{disney-streaming-software-engineer-june-2022-present}}
 
 \begin{itemize}
 \tightlist
@@ -157,7 +167,14 @@
   for platform users.
 \end{itemize}
 
-\experience{Agot AI}{Team Lead}{Jan 2022 -- June 2022}
+\hypertarget{agot-ai}{%
+\subsection{Agot AI}\label{agot-ai}}
+
+\vspace{-3pt}
+
+\hypertarget{team-lead-jan-2022-june-2022}{%
+\subsubsection{\texorpdfstring{Team Lead \hfill Jan 2022 -- June
+2022}{Team Lead Jan 2022 -- June 2022}}\label{team-lead-jan-2022-june-2022}}
 
 \begin{itemize}
 \tightlist
@@ -171,7 +188,9 @@
   Advocated for strong typing, pure functions, and immutability.
 \end{itemize}
 
-\experience{Agot AI}{Software Engineer}{June 2021 -- Jan 2022}
+\hypertarget{software-engineer-june-2021-jan-2022}{%
+\subsubsection{\texorpdfstring{Software Engineer \hfill June 2021 -- Jan
+2022}{Software Engineer June 2021 -- Jan 2022}}\label{software-engineer-june-2021-jan-2022}}
 
 \begin{itemize}
 \tightlist
@@ -183,7 +202,10 @@
   microservices.
 \end{itemize}
 
-\experience{Skyworks Solutions}{Machine Learning Intern}{Jan 2021 -- June 2021}
+\hypertarget{skyworks-solutions-intern-jan-2021-june-2021}{%
+\subsection{\texorpdfstring{Skyworks Solutions \emph{· Intern \hfill Jan
+2021 -- June
+2021}}{Skyworks Solutions · Intern Jan 2021 -- June 2021}}\label{skyworks-solutions-intern-jan-2021-june-2021}}
 
 \begin{itemize}
 \tightlist
@@ -195,7 +217,10 @@
   on-the-fly composition with filters.
 \end{itemize}
 
-\experience{Lucid Software}{Software Engineering Intern}{June 2020 -- Sep 2020}
+\hypertarget{lucid-software-intern-june-2020-sep-2020}{%
+\subsection{\texorpdfstring{Lucid Software \emph{· Intern \hfill June
+2020 -- Sep
+2020}}{Lucid Software · Intern June 2020 -- Sep 2020}}\label{lucid-software-intern-june-2020-sep-2020}}
 
 \begin{itemize}
 \tightlist
@@ -210,7 +235,10 @@
   came in 1st place.
 \end{itemize}
 
-\experience{CBTNuggets}{Software Engineering Intern}{June 2018 -- June 2019}
+\hypertarget{cbtnuggets-intern-june-2018-june-2019}{%
+\subsection{\texorpdfstring{CBTNuggets \emph{· Intern \hfill June 2018
+-- June
+2019}}{CBTNuggets · Intern June 2018 -- June 2019}}\label{cbtnuggets-intern-june-2018-june-2019}}
 
 \begin{itemize}
 \tightlist
@@ -219,16 +247,43 @@
   iOS, tvOS, and UWP apps.
 \end{itemize}
 
-\switchcolumn
+\switchcolumn 
+
+\hypertarget{skills}{%
+\section{Skills}\label{skills}}
+
+\hypertarget{languages}{%
+\subsection{Languages}\label{languages}}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Expert:} Python
+\item
+  \textbf{Proficient:} Scala, Kotlin, \& Typescript
+\item
+  \textbf{Learning:} Haskell, Elm
+\end{itemize}
+
+\hypertarget{tech}{%
+\subsection{Tech}\label{tech}}
+
+\begin{itemize}
+\tightlist
+\item
+  \emph{Proficient in} Object storage (S3), Instances (EC2), Docker, \&
+  Terraform
+\item
+  \emph{Familiar with} RabbitMQ, Kinesis, \& Kubernetes
+\end{itemize}
 
 \hypertarget{education}{%
 \section{Education}\label{education}}
 
-\hypertarget{oregon-state-university}{%
-\subsection{Oregon State University}\label{oregon-state-university}}
+\vspace{1pt}
 
-B.S., Computer Science\\
-\emph{June 2021}
+\textbf{Oregon State University · 2021}\\
+\emph{B.S., Computer Science (4.0 GPA)}
 
 Relevant courses: Programming Language Fundamentals (Haskell) \& Deep
 Learning
@@ -248,27 +303,17 @@ Haskell.
 An application that digitizes electrocardiograms built with OpenCV and
 PyQt.
 
-\hypertarget{jumble}{%
-\subsection{\texorpdfstring{\href{https://julianfortune.com/unjumble/}{Jumble}}{Jumble}}\label{jumble}}
-
-A JS app for unscrambling `jumbled' words and listing all matches
-instantaneously.
-
 \hypertarget{publications}{%
 \section{Publications}\label{publications}}
 
-\hypertarget{real-time-speech-workload-estimation-for-intelligent-human-machine-systems}{%
-\subsubsection{Real-Time Speech Workload Estimation for Intelligent
-Human-Machine
-Systems}\label{real-time-speech-workload-estimation-for-intelligent-human-machine-systems}}
+\vspace{1pt}
 
-\emph{Accepted to Human Factors and Ergonomics Society Annual Meeting,
-2020. Co-authored with Dr.~Jamison Heard and Dr.~Julie A. Adams}
+Real-Time Speech Workload Estimation for Intelligent Human-Machine
+Systems\\
+\emph{Human Factors and Ergonomics Society Annual Meeting, 2020.
+Co-authored with Dr.~Jamison Heard and Dr.~Julie A. Adams}
 
-\hypertarget{real-time-speech-workload-estimation}{%
-\subsubsection{Real-time Speech Workload
-Estimation}\label{real-time-speech-workload-estimation}}
-
+Real-time Speech Workload Estimation\\
 \emph{Undergraduate Honors Thesis, May 2020}
 
 \end{raggedright}

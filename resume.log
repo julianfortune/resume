@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.5.28)  31 MAY 2023 20:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.5.28)  1 JUN 2023 22:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -8,8 +8,8 @@ LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-05-22> (/usr/local/texlive/2023/texmf-dist/tex/latex
 /base/article.cls
 Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
-(/usr/local/texlive/2023/texmf-dist/tex/latex/base/size11.clo
-File: size11.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count185
 \c@section=\count186
@@ -317,7 +317,7 @@ ut line 112.
 File: T1cantarell-TLF.fd 2019/06/24 Font definitions for T1/cantarell-TLF.
 )
 LaTeX Font Info:    Font shape `T1/cantarell-TLF/m/n' will be
-(Font)              scaled to size 10.95pt on input line 112.
+(Font)              scaled to size 12.0pt on input line 112.
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 41.
 (/usr/local/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
@@ -327,24 +327,24 @@ File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
 ) (build/public/resume.aux)
 \openout1 = `resume.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 113.
-LaTeX Font Info:    ... okay on input line 113.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 113.
-LaTeX Font Info:    ... okay on input line 113.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 113.
-LaTeX Font Info:    ... okay on input line 113.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 113.
-LaTeX Font Info:    ... okay on input line 113.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 113.
-LaTeX Font Info:    ... okay on input line 113.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 113.
-LaTeX Font Info:    ... okay on input line 113.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 113.
-LaTeX Font Info:    ... okay on input line 113.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 113.
-LaTeX Font Info:    ... okay on input line 113.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 113.
-LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -364,12 +364,12 @@ LaTeX Font Info:    ... okay on input line 113.
 * \topmargin=-73.135pt
 * \headheight=12.0pt
 * \headsep=25.0pt
-* \topskip=11.0pt
+* \topskip=12.0pt
 * \footskip=30.0pt
-* \marginparwidth=59.0pt
+* \marginparwidth=44.0pt
 * \marginparsep=10.0pt
 * \columnsep=10.0pt
-* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -379,19 +379,19 @@ LaTeX Font Info:    ... okay on input line 113.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \microtypecontext on input line 113.
-Package microtype Info: Applying patch `item' on input line 113.
-Package microtype Info: Applying patch `toc' on input line 113.
-Package microtype Info: Applying patch `eqnum' on input line 113.
-Package microtype Info: Applying patch `footnote' on input line 113.
-Package microtype Info: Applying patch `verbatim' on input line 113.
+LaTeX Info: Redefining \microtypecontext on input line 120.
+Package microtype Info: Applying patch `item' on input line 120.
+Package microtype Info: Applying patch `toc' on input line 120.
+Package microtype Info: Applying patch `eqnum' on input line 120.
+Package microtype Info: Applying patch `footnote' on input line 120.
+Package microtype Info: Applying patch `verbatim' on input line 120.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 113.
+LaTeX Info: Redefining \showhyphens on input line 120.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -399,7 +399,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cantarell-TLF' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-Package hyperref Info: Link coloring ON on input line 113.
+Package hyperref Info: Link coloring ON on input line 120.
 (build/public/resume.out) (build/public/resume.out)
 \@outlinefile=\write3
 \openout3 = `resume.out'.
@@ -421,11 +421,11 @@ Package hyperref Info: Link coloring ON on input line 113.
 \c@mv@tabular=\count300
 \c@mv@boldtabular=\count301
 LaTeX Font Info:    Font shape `T1/cantarell-TLF/b/n' will be
-(Font)              scaled to size 10.95pt on input line 116.
+(Font)              scaled to size 12.0pt on input line 123.
 LaTeX Font Info:    Font shape `T1/cantarell-TLF/b/n' will be
-(Font)              scaled to size 20.74pt on input line 116.
+(Font)              scaled to size 24.88pt on input line 123.
 LaTeX Font Info:    Trying to load font information for T1+Nunito-TLF on input 
-line 117.
+line 124.
 (/usr/local/texlive/2023/texmf-dist/tex/latex/nunito/T1Nunito-TLF.fd
 File: T1Nunito-TLF.fd 2021/01/15 (autoinst) Font definitions for T1/Nunito-TLF.
 
@@ -435,41 +435,43 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Trying to load font information for TS1+cantarell-TLF on in
-put line 123.
+put line 130.
 (/usr/local/texlive/2023/texmf-dist/tex/latex/cantarell/TS1cantarell-TLF.fd
 File: TS1cantarell-TLF.fd 2019/06/24 Font definitions for TS1/cantarell-TLF.
 )
 LaTeX Font Info:    Font shape `TS1/cantarell-TLF/m/n' will be
-(Font)              scaled to size 10.95pt on input line 123.
+(Font)              scaled to size 12.0pt on input line 130.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cantarell-TLF' (encoding: TS1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `T1/cantarell-TLF/m/n' will be
-(Font)              scaled to size 14.4pt on input line 133.
+(Font)              scaled to size 17.28pt on input line 140.
 (/usr/local/texlive/2023/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 133.
+(Font)              <17.28> on input line 140.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 133.
+(Font)              <12> on input line 140.
+LaTeX Font Info:    Font shape `TS1/cantarell-TLF/b/n' will be
+(Font)              scaled to size 12.0pt on input line 145.
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 228.
-
-
-Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 240.
-
-
-Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 263.
+(hyperref)                be the same. Added a new anchor on input line 145.
 
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 263.
+(hyperref)                be the same. Added a new anchor on input line 177.
+
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 256.
+
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 295.
 
 [1
 
@@ -479,25 +481,25 @@ ive/2023/texmf-dist/fonts/enc/dvips/cantarell/a_5r5lpu.enc}{/usr/local/texlive/
 2023/texmf-dist/fonts/enc/dvips/cantarell/a_tv3tjz.enc}] (build/public/resume.a
 ux)
 Package rerunfilecheck Info: File `resume.out' has not changed.
-(rerunfilecheck)             Checksum: D7C94C40C7FB8B1C4A4BF30EB537A10C;1523.
+(rerunfilecheck)             Checksum: 4611D401E6D16BD12BD59BF02B3E2F4F;2680.
  ) 
 Here is how much of TeX's memory you used:
- 13838 strings out of 476038
- 226806 string characters out of 5790176
- 1875785 words of memory out of 5000000
- 34038 multiletter control sequences out of 15000+600000
- 559024 words of font info for 83 fonts, out of 8000000 for 9000
+ 13866 strings out of 476038
+ 227468 string characters out of 5790176
+ 1878785 words of memory out of 5000000
+ 34048 multiletter control sequences out of 15000+600000
+ 560636 words of font info for 91 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,5n,76p,1208b,715s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,5n,76p,1208b,725s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/gnome/cantarell/Cantarell-Bol
 d.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/gnome/cantarell/Cantarell
 -Regular.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/nunito/Nuni
 to-Bold.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/nunito/Nunit
 o-Regular.pfb>
-Output written on build/public/resume.pdf (1 page, 74205 bytes).
+Output written on build/public/resume.pdf (1 page, 78829 bytes).
 PDF statistics:
- 92 PDF objects out of 1000 (max. 8388607)
- 79 compressed objects within 1 object stream
- 15 named destinations out of 1000 (max. 500000)
- 24145 words of extra memory for PDF output out of 24883 (max. 10000000)
+ 121 PDF objects out of 1000 (max. 8388607)
+ 106 compressed objects within 2 object streams
+ 22 named destinations out of 1000 (max. 500000)
+ 28289 words of extra memory for PDF output out of 29859 (max. 10000000)
 
