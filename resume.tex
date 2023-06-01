@@ -44,26 +44,32 @@
 %% Format Headers %%
 
 % Set custom formatting for H1
-\titleformat{\section}% TODO: Document these bits
-  {\Large}%
+\titleformat{\section}%
+  {\Large}% Font size
   {\thesection}%
   {0pt}%
-  {%
-    {\fontfamily{Nunito-TLF}\selectfont\textls[15]{%
+  {{%
+    \fontfamily{Nunito-TLF}\selectfont% Use rounded font
+    \textls[15]{% Increase character spacing
       \MakeTextUppercase{#1}%
     }}%
   }%
-  [{\color{gray}\titlerule[0.5pt]}]
+  [{\color{gray}\titlerule[0.5pt]}] % Horizontal rule beneath text
 
 % Increase H1 margin-top
 \titlespacing{\section}{0pt}{10pt}{5pt}  % left / above / below
 
-% Increase H2 margin-top
-\titlespacing{\subsection}{0pt}{8pt}{5pt}  % left / above / below
+% Use rounded font for H1
+\titleformat{\subsection}%
+  {\bfseries\fontfamily{Nunito-TLF}\selectfont}%
+  {\thesection}{0pt}{#1}
 
-% Make H3's gray
+% Make H3's gray & use rounded font
 \titleformat{\subsubsection}
-   {\normalfont\bfseries}{\thesection}{1em}{\textcolor{gray}{#1}}
+   {\small\bfseries\fontfamily{Nunito-TLF}\selectfont}%
+   {\thesection}{0pt}%
+   {\textcolor{gray}{#1}}
+
 
 %% Commands %%
 
@@ -139,10 +145,10 @@
 \hypertarget{experience}{%
 \section{Experience}\label{experience}}
 
-\hypertarget{disney-streaming-software-engineer-june-2022-present}{%
-\subsection{\texorpdfstring{Disney Streaming \emph{· Software Engineer
-\hfill June 2022 --
-Present}}{Disney Streaming · Software Engineer June 2022 -- Present}}\label{disney-streaming-software-engineer-june-2022-present}}
+\hypertarget{disney-streaming-software-engineer-june-2022present}{%
+\subsection{\texorpdfstring{Disney Streaming \emph{· \small Software
+Engineer \hfill June
+2022--Present}}{Disney Streaming · Software Engineer June 2022--Present}}\label{disney-streaming-software-engineer-june-2022present}}
 
 \begin{itemize}
 \tightlist
@@ -170,10 +176,10 @@ Present}}{Disney Streaming · Software Engineer June 2022 -- Present}}\label{dis
 \hypertarget{agot-ai}{%
 \subsection{Agot AI}\label{agot-ai}}
 
-\vspace{-3pt}
+\vspace{-4pt}
 
 \hypertarget{team-lead-jan-2022-june-2022}{%
-\subsubsection{\texorpdfstring{Team Lead \hfill Jan 2022 -- June
+\subsubsection{\texorpdfstring{\small Team Lead \hfill Jan 2022 -- June
 2022}{Team Lead Jan 2022 -- June 2022}}\label{team-lead-jan-2022-june-2022}}
 
 \begin{itemize}
@@ -189,7 +195,8 @@ Present}}{Disney Streaming · Software Engineer June 2022 -- Present}}\label{dis
 \end{itemize}
 
 \hypertarget{software-engineer-june-2021-jan-2022}{%
-\subsubsection{\texorpdfstring{Software Engineer \hfill June 2021 -- Jan
+\subsubsection{\texorpdfstring{\small Software Engineer \hfill June 2021
+-- Jan
 2022}{Software Engineer June 2021 -- Jan 2022}}\label{software-engineer-june-2021-jan-2022}}
 
 \begin{itemize}
@@ -203,8 +210,8 @@ Present}}{Disney Streaming · Software Engineer June 2022 -- Present}}\label{dis
 \end{itemize}
 
 \hypertarget{skyworks-solutions-intern-jan-2021-june-2021}{%
-\subsection{\texorpdfstring{Skyworks Solutions \emph{· Intern \hfill Jan
-2021 -- June
+\subsection{\texorpdfstring{Skyworks Solutions \emph{· \small Intern
+\hfill Jan 2021 -- June
 2021}}{Skyworks Solutions · Intern Jan 2021 -- June 2021}}\label{skyworks-solutions-intern-jan-2021-june-2021}}
 
 \begin{itemize}
@@ -218,8 +225,8 @@ Present}}{Disney Streaming · Software Engineer June 2022 -- Present}}\label{dis
 \end{itemize}
 
 \hypertarget{lucid-software-intern-june-2020-sep-2020}{%
-\subsection{\texorpdfstring{Lucid Software \emph{· Intern \hfill June
-2020 -- Sep
+\subsection{\texorpdfstring{Lucid Software \emph{· \small Intern
+\hfill June 2020 -- Sep
 2020}}{Lucid Software · Intern June 2020 -- Sep 2020}}\label{lucid-software-intern-june-2020-sep-2020}}
 
 \begin{itemize}
@@ -233,18 +240,6 @@ Present}}{Disney Streaming · Software Engineer June 2022 -- Present}}\label{dis
 \item
   Participated in a hand-drawn shape detection hackathon project which
   came in 1st place.
-\end{itemize}
-
-\hypertarget{cbtnuggets-intern-june-2018-june-2019}{%
-\subsection{\texorpdfstring{CBTNuggets \emph{· Intern \hfill June 2018
--- June
-2019}}{CBTNuggets · Intern June 2018 -- June 2019}}\label{cbtnuggets-intern-june-2018-june-2019}}
-
-\begin{itemize}
-\tightlist
-\item
-  Debugged, fixed crashes, implemented features, and wrote tests for
-  iOS, tvOS, and UWP apps.
 \end{itemize}
 
 \switchcolumn 
@@ -280,10 +275,15 @@ Present}}{Disney Streaming · Software Engineer June 2022 -- Present}}\label{dis
 \hypertarget{education}{%
 \section{Education}\label{education}}
 
-\vspace{1pt}
+\hypertarget{oregon-state-university-2021}{%
+\subsection{Oregon State University ·
+2021}\label{oregon-state-university-2021}}
 
-\textbf{Oregon State University · 2021}\\
-\emph{B.S., Computer Science (4.0 GPA)}
+\vspace{-4pt}
+
+\hypertarget{b.s.-computer-science-4.0-gpa}{%
+\subsubsection{B.S., Computer Science (4.0
+GPA)}\label{b.s.-computer-science-4.0-gpa}}
 
 Relevant courses: Programming Language Fundamentals (Haskell) \& Deep
 Learning
