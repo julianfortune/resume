@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.5.28)  1 JUN 2023 23:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.5.28)  8 JUN 2023 18:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -511,7 +511,7 @@ Here is how much of TeX's memory you used:
 ular.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/nunito/Nunito-B
 old.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/nunito/Nunito-Re
 gular.pfb>
-Output written on build/public/resume.pdf (1 page, 71171 bytes).
+Output written on build/public/resume.pdf (1 page, 71168 bytes).
 PDF statistics:
  122 PDF objects out of 1000 (max. 8388607)
  109 compressed objects within 2 object streams
