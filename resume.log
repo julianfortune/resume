@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.5.28)  8 JUN 2023 18:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.5.28)  9 JUN 2023 22:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -479,15 +479,15 @@ Package hyperref Warning: The anchor of a bookmark and its parent's must not
 
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 251.
+(hyperref)                be the same. Added a new anchor on input line 265.
 
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 280.
+(hyperref)                be the same. Added a new anchor on input line 286.
 
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 295.
+(hyperref)                be the same. Added a new anchor on input line 301.
 
 [1
 
@@ -497,24 +497,24 @@ ive/2023/texmf-dist/fonts/enc/dvips/cantarell/a_5r5lpu.enc}{/usr/local/texlive/
 2023/texmf-dist/fonts/enc/dvips/cantarell/a_tv3tjz.enc}{/usr/local/texlive/2023
 /texmf-dist/fonts/enc/dvips/nunito/a_xzgqel.enc}] (build/public/resume.aux)
 Package rerunfilecheck Info: File `resume.out' has not changed.
-(rerunfilecheck)             Checksum: 0F5F723F6D4BB4B4658ED3358DC55928;2831.
+(rerunfilecheck)             Checksum: 883DAD7708B9D64EE0ABF923189C426F;3325.
  ) 
 Here is how much of TeX's memory you used:
- 13947 strings out of 476038
- 229334 string characters out of 5790176
- 1877785 words of memory out of 5000000
- 34125 multiletter control sequences out of 15000+600000
- 587011 words of font info for 94 fonts, out of 8000000 for 9000
+ 13945 strings out of 476038
+ 229299 string characters out of 5790176
+ 1878785 words of memory out of 5000000
+ 34127 multiletter control sequences out of 15000+600000
+ 586551 words of font info for 90 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,5n,76p,1208b,721s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,5n,76p,1208b,727s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/gnome/cantarell/Cantarell-Reg
 ular.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/nunito/Nunito-B
 old.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/nunito/Nunito-Re
 gular.pfb>
-Output written on build/public/resume.pdf (1 page, 71168 bytes).
+Output written on build/public/resume.pdf (1 page, 72555 bytes).
 PDF statistics:
- 122 PDF objects out of 1000 (max. 8388607)
- 109 compressed objects within 2 object streams
- 24 named destinations out of 1000 (max. 500000)
- 27785 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 131 PDF objects out of 1000 (max. 8388607)
+ 118 compressed objects within 2 object streams
+ 26 named destinations out of 1000 (max. 500000)
+ 27801 words of extra memory for PDF output out of 29859 (max. 10000000)
 
