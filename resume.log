@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.5.28)  9 JUN 2023 22:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.5.28)  10 JUL 2023 19:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -470,24 +470,33 @@ Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 151.
 
 LaTeX Font Info:    Font shape `T1/cantarell-TLF/m/n' will be
-(Font)              scaled to size 10.95pt on input line 183.
+(Font)              scaled to size 10.95pt on input line 180.
 LaTeX Font Info:    Font shape `T1/cantarell-TLF/b/n' will be
-(Font)              scaled to size 10.95pt on input line 183.
+(Font)              scaled to size 10.95pt on input line 180.
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 183.
-
-
-Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 265.
+(hyperref)                be the same. Added a new anchor on input line 180.
 
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 286.
+(hyperref)                be the same. Added a new anchor on input line 269.
+
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 2
+71.
+(/usr/local/texlive/2023/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2022/07/10 v2.5l Standard LaTeX font definitions
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `cmtt' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 290.
 
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 301.
+(hyperref)                be the same. Added a new anchor on input line 305.
 
 [1
 
@@ -495,26 +504,29 @@ Package hyperref Warning: The anchor of a bookmark and its parent's must not
 al/texlive/2023/texmf-dist/fonts/enc/dvips/nunito/a_g4f2r6.enc}{/usr/local/texl
 ive/2023/texmf-dist/fonts/enc/dvips/cantarell/a_5r5lpu.enc}{/usr/local/texlive/
 2023/texmf-dist/fonts/enc/dvips/cantarell/a_tv3tjz.enc}{/usr/local/texlive/2023
-/texmf-dist/fonts/enc/dvips/nunito/a_xzgqel.enc}] (build/public/resume.aux)
+/texmf-dist/fonts/enc/dvips/nunito/a_xzgqel.enc}{/usr/local/texlive/2023/texmf-
+dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}] (build/public/resume.aux)
 Package rerunfilecheck Info: File `resume.out' has not changed.
 (rerunfilecheck)             Checksum: 883DAD7708B9D64EE0ABF923189C426F;3325.
  ) 
 Here is how much of TeX's memory you used:
- 13945 strings out of 476038
- 229299 string characters out of 5790176
- 1878785 words of memory out of 5000000
- 34127 multiletter control sequences out of 15000+600000
- 586551 words of font info for 90 fonts, out of 8000000 for 9000
+ 13986 strings out of 476038
+ 230428 string characters out of 5790176
+ 1880785 words of memory out of 5000000
+ 34149 multiletter control sequences out of 15000+600000
+ 588081 words of font info for 99 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,5n,76p,1208b,727s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2023/texmf-dist/fonts/type1/gnome/cantarell/Cantarell-Reg
-ular.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/nunito/Nunito-B
-old.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/nunito/Nunito-Re
-gular.pfb>
-Output written on build/public/resume.pdf (1 page, 72555 bytes).
+ 75i,5n,76p,1208b,731s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2023/texmf-dist/fonts/type1/gnome/cantarell/Cantarell-Bol
+d.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/gnome/cantarell/Cantarell
+-Regular.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/nunito/Nuni
+to-Bold.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/nunito/Nunit
+o-Regular.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/s
+ftt1200.pfb>
+Output written on build/public/resume.pdf (1 page, 102416 bytes).
 PDF statistics:
- 131 PDF objects out of 1000 (max. 8388607)
- 118 compressed objects within 2 object streams
+ 142 PDF objects out of 1000 (max. 8388607)
+ 125 compressed objects within 2 object streams
  26 named destinations out of 1000 (max. 500000)
- 27801 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 30361 words of extra memory for PDF output out of 35830 (max. 10000000)
 
