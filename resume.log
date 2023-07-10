@@ -470,19 +470,19 @@ Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 151.
 
 LaTeX Font Info:    Font shape `T1/cantarell-TLF/m/n' will be
-(Font)              scaled to size 10.95pt on input line 180.
+(Font)              scaled to size 10.95pt on input line 181.
 LaTeX Font Info:    Font shape `T1/cantarell-TLF/b/n' will be
-(Font)              scaled to size 10.95pt on input line 180.
+(Font)              scaled to size 10.95pt on input line 181.
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 180.
+(hyperref)                be the same. Added a new anchor on input line 181.
 
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 269.
+(hyperref)                be the same. Added a new anchor on input line 264.
 
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 2
-71.
+66.
 (/usr/local/texlive/2023/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2022/07/10 v2.5l Standard LaTeX font definitions
 )
@@ -492,11 +492,11 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             See the microtype manual for details.
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 290.
+(hyperref)                be the same. Added a new anchor on input line 285.
 
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 305.
+(hyperref)                be the same. Added a new anchor on input line 300.
 
 [1
 
@@ -510,23 +510,22 @@ Package rerunfilecheck Info: File `resume.out' has not changed.
 (rerunfilecheck)             Checksum: 883DAD7708B9D64EE0ABF923189C426F;3325.
  ) 
 Here is how much of TeX's memory you used:
- 13986 strings out of 476038
- 230428 string characters out of 5790176
- 1880785 words of memory out of 5000000
+ 13973 strings out of 476038
+ 230056 string characters out of 5790176
+ 1878785 words of memory out of 5000000
  34149 multiletter control sequences out of 15000+600000
- 588081 words of font info for 99 fonts, out of 8000000 for 9000
+ 586864 words of font info for 91 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,5n,76p,1208b,731s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2023/texmf-dist/fonts/type1/gnome/cantarell/Cantarell-Bol
-d.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/gnome/cantarell/Cantarell
--Regular.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/nunito/Nuni
-to-Bold.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/nunito/Nunit
-o-Regular.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/s
-ftt1200.pfb>
-Output written on build/public/resume.pdf (1 page, 102416 bytes).
+</usr/local/texlive/2023/texmf-dist/fonts/type1/gnome/cantarell/Cantarell-Reg
+ular.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/nunito/Nunito-B
+old.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/nunito/Nunito-Re
+gular.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sftt1
+200.pfb>
+Output written on build/public/resume.pdf (1 page, 91944 bytes).
 PDF statistics:
- 142 PDF objects out of 1000 (max. 8388607)
- 125 compressed objects within 2 object streams
+ 137 PDF objects out of 1000 (max. 8388607)
+ 122 compressed objects within 2 object streams
  26 named destinations out of 1000 (max. 500000)
- 30361 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 28313 words of extra memory for PDF output out of 29859 (max. 10000000)
 
