@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.5.28)  9 NOV 2023 19:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.5.28)  10 NOV 2023 20:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -479,12 +479,12 @@ Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 166.
 
 LaTeX Font Info:    Font shape `T1/cantarell-TLF/m/n' will be
-(Font)              scaled to size 10.95pt on input line 223.
+(Font)              scaled to size 10.95pt on input line 224.
 LaTeX Font Info:    Font shape `T1/cantarell-TLF/b/n' will be
-(Font)              scaled to size 10.95pt on input line 223.
+(Font)              scaled to size 10.95pt on input line 224.
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 223.
+(hyperref)                be the same. Added a new anchor on input line 224.
 
 [1
 
@@ -496,10 +496,10 @@ ive/2023/texmf-dist/fonts/enc/dvips/cantarell/a_5r5lpu.enc}{/usr/local/texlive/
 exmf-dist/fonts/enc/dvips/nunito/a_xzgqel.enc}]
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 315.
+(hyperref)                be the same. Added a new anchor on input line 313.
 
 
-Overfull \hbox (11.55266pt too wide) in paragraph at lines 331--333
+Overfull \hbox (11.55266pt too wide) in paragraph at lines 329--331
 [][][] []\T1/cantarell-TLF/b/n/12 (-20) Func[]-[]tional[]-[]C[][] \T1/cantarell
 -TLF/m/n/12 (-20) --- Statically-typed, in-ter-preted
  []
@@ -511,23 +511,23 @@ Overfull \hbox (2.0pt too wide) has occurred while \output is active
 
 [2] (build/public/resume.aux)
 Package rerunfilecheck Info: File `resume.out' has not changed.
-(rerunfilecheck)             Checksum: E906073F0746B9FCC0D98FD28B50782A;3256.
+(rerunfilecheck)             Checksum: CEE309AB193050975258A6B84CD54C7B;3271.
  ) 
 Here is how much of TeX's memory you used:
- 13992 strings out of 476038
- 230921 string characters out of 5790176
- 1868785 words of memory out of 5000000
+ 13995 strings out of 476038
+ 231014 string characters out of 5790176
+ 1867785 words of memory out of 5000000
  34142 multiletter control sequences out of 15000+600000
- 589575 words of font info for 112 fonts, out of 8000000 for 9000
+ 589805 words of font info for 114 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,5n,76p,1208b,647s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,5n,76p,1208b,645s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/gnome/cantarell/Cantarell-Bol
 d.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/gnome/cantarell/Cantarell
 -Regular.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/nunito/Nuni
 to-Bold.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/nunito/Nunit
 o-Regular.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/s
 ftt1200.pfb>
-Output written on build/public/resume.pdf (2 pages, 111990 bytes).
+Output written on build/public/resume.pdf (2 pages, 111912 bytes).
 PDF statistics:
  129 PDF objects out of 1000 (max. 8388607)
  111 compressed objects within 2 object streams
