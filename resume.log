@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.5.28)  10 NOV 2023 20:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.5.28)  10 NOV 2023 21:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -527,7 +527,7 @@ d.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/gnome/cantarell/Cantarell
 to-Bold.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/nunito/Nunit
 o-Regular.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/s
 ftt1200.pfb>
-Output written on build/public/resume.pdf (2 pages, 111912 bytes).
+Output written on build/public/resume.pdf (2 pages, 111877 bytes).
 PDF statistics:
  129 PDF objects out of 1000 (max. 8388607)
  111 compressed objects within 2 object streams
