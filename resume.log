@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.14)  16 JAN 2024 00:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.14)  31 JAN 2024 05:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -469,12 +469,12 @@ Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 152.
 
 LaTeX Font Info:    Font shape `T1/cantarell-TLF/m/n' will be
-(Font)              scaled to size 10.95pt on input line 216.
+(Font)              scaled to size 10.95pt on input line 207.
 LaTeX Font Info:    Font shape `T1/cantarell-TLF/b/n' will be
-(Font)              scaled to size 10.95pt on input line 216.
+(Font)              scaled to size 10.95pt on input line 207.
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 216.
+(hyperref)                be the same. Added a new anchor on input line 207.
 
 [1
 
@@ -485,10 +485,10 @@ ive/2023/texmf-dist/fonts/enc/dvips/cantarell/a_5r5lpu.enc}{/usr/local/texlive/
 /texmf-dist/fonts/enc/dvips/nunito/a_xzgqel.enc}]
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 305.
+(hyperref)                be the same. Added a new anchor on input line 296.
 
 
-Overfull \hbox (11.55266pt too wide) in paragraph at lines 321--323
+Overfull \hbox (11.55266pt too wide) in paragraph at lines 312--314
 [][][] []\T1/cantarell-TLF/b/n/12 (-20) Func[]-[]tional[]-[]C[][] \T1/cantarell
 -TLF/m/n/12 (-20) --- Statically-typed, in-ter-preted
  []
@@ -499,7 +499,7 @@ Overfull \hbox (2.0pt too wide) has occurred while \output is active
  []
 
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 3
-51.
+42.
 (/usr/local/texlive/2023/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
@@ -517,11 +517,11 @@ Package rerunfilecheck Info: File `resume.out' has not changed.
 (rerunfilecheck)             Checksum: 01C17AFA175B4FAEC9BE3B0EF5564308;3262.
  ) 
 Here is how much of TeX's memory you used:
- 13854 strings out of 474166
- 226991 string characters out of 5745489
- 1942525 words of memory out of 5000000
+ 13851 strings out of 474166
+ 226901 string characters out of 5745489
+ 1941525 words of memory out of 5000000
  35884 multiletter control sequences out of 15000+600000
- 635587 words of font info for 118 fonts, out of 8000000 for 9000
+ 635357 words of font info for 116 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,5n,79p,1208b,647s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/gnome/cantarell/Cantarell-Bol
@@ -530,7 +530,7 @@ d.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/gnome/cantarell/Cantarell
 to-Bold.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/nunito/Nunit
 o-Regular.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/s
 ftt1200.pfb>
-Output written on build/public/resume.pdf (2 pages, 112325 bytes).
+Output written on build/public/resume.pdf (2 pages, 111865 bytes).
 PDF statistics:
  129 PDF objects out of 1000 (max. 8388607)
  111 compressed objects within 2 object streams
