@@ -1,6 +1,6 @@
 % Adapted from: "Scismic's Recommended CV Template for Biotech and Pharma Jobs" by Scismic and Overleaf, licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), accessed April 10, 2020 from [Overleaf](https://www.overleaf.com/latex/templates/scismics-recommended-cv-template-for-biotech-and-pharma-jobs/hbnkjrjnnpjz)
 
-\documentclass[12pt]{article} % decrease fontsize to `10pt` or `11pt` to make more room
+\documentclass[10pt]{article} % decrease fontsize to `10pt` or `11pt` to make more room
 
 
 %% Dependencies %%
@@ -46,8 +46,7 @@
 % Set custom formatting for H1
 \titleformat{\section}%
   {\Large}% Font size
-  {\thesection}%
-  {0pt}%
+  {\thesection}{0pt}%
   {{%
     \fontfamily{Nunito-TLF}\selectfont% Use rounded font
     \textls[15]{% Increase character spacing
@@ -59,13 +58,14 @@
 % Increase H1 margin-top
 \titlespacing{\section}{0pt}{10pt}{5pt}  % left / above / below
 
-% Use rounded font for H1
+% Use rounded font for H2
 \titleformat{\subsection}%
-  {\bfseries\fontfamily{Nunito-TLF}\selectfont}%
-  {\thesection}{0pt}{#1}
+  {\large\bfseries\fontfamily{Nunito-TLF}\selectfont}% Font style
+  {\thesection}{0pt}%
+  {#1}
 
-% Increase H1 margin-top
-\titlespacing{\subsection}{0pt}{14pt}{5pt}  % left / above / below
+% Increase H2 margin-top
+% \titlespacing{\subsection}{0pt}{14pt}{5pt}  % left / above / below
 
 % Make H3's gray & use rounded font
 \titleformat{\subsubsection}
@@ -105,7 +105,7 @@
 
 %% Document Configuration %%
 
-\geometry{a4paper,margin=1in}
+\geometry{a4paper,margin=0.5in}
 \pagestyle{empty}
 \setcounter{secnumdepth}{0}
 
@@ -136,12 +136,9 @@
 
 % \begin{raggedright}
 
-\vspace{0.5em}
-
-Software engineer with 4 years of professional experience, expertise in
-leveraging functional techniques and type systems to prevent bugs, and a
-track record of success in environments ranging from early startups to
-massive enterprises.
+\columnratio{0.75}
+\begin{paracol}{2}
+\setlength{\columnsep}{1em}
 
 \hypertarget{experience}{%
 \section{Experience}\label{experience}}
@@ -162,12 +159,10 @@ social media platform (Frequency) based on an open source protocol.
 \begin{itemize}
 \tightlist
 \item
-  Created an end-to-end test suite for a Spring application using
-  Playwright.
+  Added password authentication support to DB layer with salting and
+  hashing.
 \item
-  Added password authentication support with secure salting and hashing.
-\item
-  Implemented arbitrary-length prefix phone number blocking using a
+  Implemented phone number blocking based on arbitrary prefixes via a
   Trie.
 \item
   Built out a separate service for sending SMS messages with
@@ -221,6 +216,9 @@ SDKs.
 \item
   Added features to SDK's, `higher-level' services (e.g., snapshotter),
   and SBT plugins.
+\item
+  Created dashboards that enabled faster resolutions to production
+  incidents.
 \end{itemize}
 
 \hypertarget{agot-ai}{%
@@ -243,8 +241,6 @@ labels used for training.
 \item
   Doubled the rate of training data produced through process
   improvements.
-\item
-  Advocated for strong typing, pure functions, and immutability.
 \end{itemize}
 
 \hypertarget{software-engineer-june-2021-jan-2022}{%
@@ -261,8 +257,7 @@ feedback system.
   Implemented microservices in Python communicating via RabbitMQ.
 \item
   Wrote Python libraries for standardizing consuming and producing
-  RabbitMQ events, and for identifying the closest match for an order
-  from a set of candidates.
+  RabbitMQ events
 \item
   Started a Python lecture series to promote best practices.
 \end{itemize}
@@ -289,15 +284,11 @@ TPU instances), and writing tests.
 \hfill June 2020 -- Sep
 2020}}{Lucid Software · Intern June 2020 -- Sep 2020}}\label{lucid-software-intern-june-2020-sep-2020}}
 
-Developed new front-end components, redesigned the paywall system to
-support a suite of products, and refactored endpoints and models to
-support front-end changes.
+Developed new front-end components and refactored endpoints to support
+front-end changes.
 
 \begin{itemize}
 \tightlist
-\item
-  Collaborated on a hand-drawn shape detection project that won the
-  hackathon.
 \item
   \textbf{Stack}: Angular and Typescript frontend, Scala backend.
 \end{itemize}
@@ -307,30 +298,32 @@ support front-end changes.
 \hfill June 2018 -- June
 2019}}{CBT Nuggets · Software Engineer June 2018 -- June 2019}}\label{cbt-nuggets-software-engineer-june-2018-june-2019}}
 
-Joined the mobile apps team (part-time during college) to assist with
-fixing crashes, debugging memory leaks, implementing features, and
-writing tests for the iOS app.
+Worked on the mobile apps team (part-time during college) developing for
+iOS and tvOS.
 
-\begin{paracol}{2}
-\setlength{\columnsep}{1em}
+\switchcolumn
+
+\hypertarget{about}{%
+\section{About}\label{about}}
+
+Software engineer with 4 years of professional experience, expertise in
+leveraging functional techniques and type systems to prevent bugs, and a
+track record of success in environments ranging from early startups to
+massive enterprises.
 
 \hypertarget{education}{%
 \section{Education}\label{education}}
 
-\hypertarget{oregon-state-university-20172021}{%
-\subsection{Oregon State University ·
-2017--2021}\label{oregon-state-university-20172021}}
+\textbf{Oregon State University} \vspace{-3pt}
 
-\vspace{-5pt}
+\textbf{2017--2021}
 
 \hypertarget{b.s.-computer-science-4.0-gpa}{%
 \subsubsection{B.S., Computer Science (4.0
 GPA)}\label{b.s.-computer-science-4.0-gpa}}
 
 Relevant courses: Programming Language Fundamentals (Haskell) \& Deep
-Learning
-
-\switchcolumn
+Learning.
 
 \hypertarget{projects}{%
 \section{Projects}\label{projects}}
@@ -341,8 +334,6 @@ Learning
 \textbf{\href{https://github.com/Tereshchenkolab/paper-ecg}{PaperECG}}
 --- An application that digitizes electrocardiograms (ECGs) built with
 PyQt.
-
-\end{paracol}
 
 \hypertarget{publications}{%
 \section{Publications}\label{publications}}
@@ -373,6 +364,8 @@ Co-authored with Larisa G. Tereshchenko and others.}
 \item
   \textbf{Tools:} Docker, Terraform, Gradle, \& Make.
 \end{itemize}
+
+\end{paracol}
 
 % \end{raggedright}
 
