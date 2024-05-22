@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.14)  13 MAY 2024 23:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.14)  22 MAY 2024 22:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -455,19 +455,19 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 144.
 LaTeX Font Info:    Font shape `T1/cantarell-TLF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 147.
+(Font)              scaled to size 12.0pt on input line 148.
 LaTeX Font Info:    Font shape `T1/cantarell-TLF/b/n' will be
-(Font)              scaled to size 12.0pt on input line 147.
+(Font)              scaled to size 12.0pt on input line 148.
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 147.
+(hyperref)                be the same. Added a new anchor on input line 148.
 
 LaTeX Font Info:    Font shape `T1/cantarell-TLF/m/n' will be
 (Font)              scaled to size 9.0pt on input line 154.
 LaTeX Font Info:    Font shape `T1/cantarell-TLF/b/n' will be
 (Font)              scaled to size 9.0pt on input line 154.
 LaTeX Font Info:    Trying to load font information for TS1+Nunito-TLF on input
- line 201.
+ line 200.
 (/usr/local/texlive/2023/texmf-dist/tex/latex/nunito/TS1Nunito-TLF.fd
 File: TS1Nunito-TLF.fd 2021/01/15 (autoinst) Font definitions for TS1/Nunito-TL
 F.
@@ -478,60 +478,50 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             See the microtype manual for details.
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 231.
+(hyperref)                be the same. Added a new anchor on input line 229.
 
 
-Overfull \hbox (3.30205pt too wide) in paragraph at lines 309--313
+Overfull \hbox (3.30205pt too wide) in paragraph at lines 304--308
 []\T1/cantarell-TLF/m/n/10 (-20) Software en-gi-neer with 4 years
  []
 
 
-Overfull \hbox (3.158pt too wide) in paragraph at lines 309--313
+Overfull \hbox (3.158pt too wide) in paragraph at lines 304--308
 \T1/cantarell-TLF/m/n/10 (-20) per-tise in lever-ag-ing func-tional
  []
 
 
-Overfull \hbox (6.42307pt too wide) in paragraph at lines 323--323
+Overfull \hbox (6.42307pt too wide) in paragraph at lines 318--318
 |[] \T1/Nunito-TLF/b/n/9 B.S., Com-puter Sci-ence (4.0 GPA)
  []
 
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 323.
+(hyperref)                than one, level fixed on input line 318.
 
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 323.
+(hyperref)                be the same. Added a new anchor on input line 318.
 
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 3
-54.
-(/usr/local/texlive/2023/texmf-dist/tex/latex/base/t1cmtt.fd
-File: t1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
-)
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `cmtt' (encoding: T1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
 [1
 
 {/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/loc
 al/texlive/2023/texmf-dist/fonts/enc/dvips/nunito/a_g4f2r6.enc}{/usr/local/texl
 ive/2023/texmf-dist/fonts/enc/dvips/cantarell/a_5r5lpu.enc}{/usr/local/texlive/
 2023/texmf-dist/fonts/enc/dvips/cantarell/a_tv3tjz.enc}{/usr/local/texlive/2023
-/texmf-dist/fonts/enc/dvips/nunito/a_xzgqel.enc}{/usr/local/texlive/2023/texmf-
-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}] (build/public/resume.aux)
+/texmf-dist/fonts/enc/dvips/nunito/a_xzgqel.enc}] (build/public/resume.aux)
  ***********
 LaTeX2e <2023-11-01>
 L3 programming layer <2024-01-04>
  ***********
 Package rerunfilecheck Info: File `resume.out' has not changed.
-(rerunfilecheck)             Checksum: 9D21BC7C18FFA4A59F9556167715BBD4;3846.
+(rerunfilecheck)             Checksum: F3537845F329754BC09266A2119E145C;3686.
  ) 
 Here is how much of TeX's memory you used:
- 13851 strings out of 474166
- 226986 string characters out of 5745489
- 1966525 words of memory out of 5000000
- 35887 multiletter control sequences out of 15000+600000
+ 13825 strings out of 474166
+ 226197 string characters out of 5745489
+ 1965525 words of memory out of 5000000
+ 35865 multiletter control sequences out of 15000+600000
  634649 words of font info for 111 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,5n,79p,1208b,702s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -539,12 +529,11 @@ Here is how much of TeX's memory you used:
 d.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/gnome/cantarell/Cantarell
 -Regular.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/nunito/Nuni
 to-Bold.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/nunito/Nunit
-o-Regular.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/s
-ftt1000.pfb>
-Output written on build/public/resume.pdf (1 page, 112168 bytes).
+o-Regular.pfb>
+Output written on build/public/resume.pdf (1 page, 93418 bytes).
 PDF statistics:
- 137 PDF objects out of 1000 (max. 8388607)
- 120 compressed objects within 2 object streams
+ 131 PDF objects out of 1000 (max. 8388607)
+ 116 compressed objects within 2 object streams
  22 named destinations out of 1000 (max. 500000)
- 34441 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 33929 words of extra memory for PDF output out of 35830 (max. 10000000)
 
