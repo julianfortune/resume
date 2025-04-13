@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.14)  9 SEP 2024 05:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.14)  13 APR 2025 20:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -463,11 +463,11 @@ Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 149.
 
 LaTeX Font Info:    Font shape `T1/cantarell-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 155.
+(Font)              scaled to size 9.0pt on input line 156.
 LaTeX Font Info:    Font shape `T1/cantarell-TLF/b/n' will be
-(Font)              scaled to size 9.0pt on input line 155.
+(Font)              scaled to size 9.0pt on input line 156.
 LaTeX Font Info:    Trying to load font information for TS1+Nunito-TLF on input
- line 201.
+ line 214.
 (/usr/local/texlive/2023/texmf-dist/tex/latex/nunito/TS1Nunito-TLF.fd
 File: TS1Nunito-TLF.fd 2021/01/15 (autoinst) Font definitions for TS1/Nunito-TL
 F.
@@ -478,30 +478,30 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             See the microtype manual for details.
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 230.
+(hyperref)                be the same. Added a new anchor on input line 243.
 
 
-Overfull \hbox (3.30205pt too wide) in paragraph at lines 305--309
+Overfull \hbox (3.30205pt too wide) in paragraph at lines 318--322
 []\T1/cantarell-TLF/m/n/10 (-20) Software en-gi-neer with 4 years
  []
 
 
-Overfull \hbox (3.158pt too wide) in paragraph at lines 305--309
+Overfull \hbox (3.158pt too wide) in paragraph at lines 318--322
 \T1/cantarell-TLF/m/n/10 (-20) per-tise in lever-ag-ing func-tional
  []
 
 
-Overfull \hbox (6.42307pt too wide) in paragraph at lines 319--319
+Overfull \hbox (6.42307pt too wide) in paragraph at lines 332--332
 |[] \T1/Nunito-TLF/b/n/9 B.S., Com-puter Sci-ence (4.0 GPA)
  []
 
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 319.
+(hyperref)                than one, level fixed on input line 332.
 
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 319.
+(hyperref)                be the same. Added a new anchor on input line 332.
 
 [1
 
@@ -515,25 +515,25 @@ LaTeX2e <2023-11-01>
 L3 programming layer <2024-01-04>
  ***********
 Package rerunfilecheck Info: File `resume.out' has not changed.
-(rerunfilecheck)             Checksum: C01E7717B3A996E0CB2A120843675064;3729.
+(rerunfilecheck)             Checksum: 1EBC692BA571E7306B551910F5B81493;4288.
  ) 
 Here is how much of TeX's memory you used:
- 13825 strings out of 474166
- 226213 string characters out of 5745489
+ 13830 strings out of 474166
+ 226456 string characters out of 5745489
  1966525 words of memory out of 5000000
- 35865 multiletter control sequences out of 15000+600000
- 634649 words of font info for 111 fonts, out of 8000000 for 9000
+ 35866 multiletter control sequences out of 15000+600000
+ 634879 words of font info for 113 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,5n,79p,1208b,702s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,5n,79p,1208b,704s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/gnome/cantarell/Cantarell-Bol
 d.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/gnome/cantarell/Cantarell
 -Regular.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/nunito/Nuni
 to-Bold.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/nunito/Nunit
 o-Regular.pfb>
-Output written on build/public/resume.pdf (1 page, 93808 bytes).
+Output written on build/public/resume.pdf (1 page, 94295 bytes).
 PDF statistics:
- 132 PDF objects out of 1000 (max. 8388607)
- 117 compressed objects within 2 object streams
- 22 named destinations out of 1000 (max. 500000)
- 33929 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 135 PDF objects out of 1000 (max. 8388607)
+ 120 compressed objects within 2 object streams
+ 23 named destinations out of 1000 (max. 500000)
+ 33937 words of extra memory for PDF output out of 35830 (max. 10000000)
 
