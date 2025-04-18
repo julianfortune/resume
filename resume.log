@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.14)  14 APR 2025 18:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.14)  18 APR 2025 02:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -515,11 +515,11 @@ LaTeX2e <2023-11-01>
 L3 programming layer <2024-01-04>
  ***********
 Package rerunfilecheck Info: File `resume.out' has not changed.
-(rerunfilecheck)             Checksum: 1EBC692BA571E7306B551910F5B81493;4288.
+(rerunfilecheck)             Checksum: 6F56F8D7BEDD3F2A935A70E56EF8A11C;4374.
  ) 
 Here is how much of TeX's memory you used:
  13830 strings out of 474166
- 226456 string characters out of 5745489
+ 226488 string characters out of 5745489
  1966525 words of memory out of 5000000
  35866 multiletter control sequences out of 15000+600000
  634879 words of font info for 113 fonts, out of 8000000 for 9000
@@ -530,7 +530,7 @@ d.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/gnome/cantarell/Cantarell
 -Regular.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/nunito/Nuni
 to-Bold.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/nunito/Nunit
 o-Regular.pfb>
-Output written on build/public/resume.pdf (1 page, 94295 bytes).
+Output written on build/public/resume.pdf (1 page, 94533 bytes).
 PDF statistics:
  135 PDF objects out of 1000 (max. 8388607)
  120 compressed objects within 2 object streams
