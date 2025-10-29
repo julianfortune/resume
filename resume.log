@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.14)  5 AUG 2025 01:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.14)  29 OCT 2025 23:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -467,7 +467,7 @@ LaTeX Font Info:    Font shape `T1/cantarell-TLF/m/n' will be
 LaTeX Font Info:    Font shape `T1/cantarell-TLF/b/n' will be
 (Font)              scaled to size 9.0pt on input line 156.
 LaTeX Font Info:    Trying to load font information for TS1+Nunito-TLF on input
- line 214.
+ line 225.
 (/usr/local/texlive/2023/texmf-dist/tex/latex/nunito/TS1Nunito-TLF.fd
 File: TS1Nunito-TLF.fd 2021/01/15 (autoinst) Font definitions for TS1/Nunito-TL
 F.
@@ -478,7 +478,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             See the microtype manual for details.
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 243.
+(hyperref)                be the same. Added a new anchor on input line 250.
 
 
 Overfull \hbox (3.30205pt too wide) in paragraph at lines 318--322
@@ -519,8 +519,8 @@ Package rerunfilecheck Info: File `resume.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  13830 strings out of 474166
- 226488 string characters out of 5745489
- 1966525 words of memory out of 5000000
+ 226485 string characters out of 5745489
+ 1965525 words of memory out of 5000000
  35866 multiletter control sequences out of 15000+600000
  634879 words of font info for 113 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -530,7 +530,7 @@ d.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/gnome/cantarell/Cantarell
 -Regular.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/nunito/Nuni
 to-Bold.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/nunito/Nunit
 o-Regular.pfb>
-Output written on build/public/resume.pdf (1 page, 94583 bytes).
+Output written on build/public/resume.pdf (1 page, 94257 bytes).
 PDF statistics:
  135 PDF objects out of 1000 (max. 8388607)
  120 compressed objects within 2 object streams
