@@ -65,7 +65,7 @@
   {#1}
 
 % Increase H2 margin-top
-\titlespacing{\subsection}{0pt}{10pt}{5pt}  % left / above / below
+\titlespacing{\subsection}{0pt}{12pt}{8pt}  % left / above / below
 
 % Make H3's gray & use rounded font
 \titleformat{\subsubsection}
@@ -73,6 +73,8 @@
    {\thesection}{0pt}%
    {\textcolor{gray}{#1}}
 
+% Increase H2 margin-top
+\titlespacing{\subsubsection}{0pt}{10pt}{5pt}  % left / above / below
 
 %% Commands %%
 
@@ -143,19 +145,17 @@
 \hypertarget{experience}{%
 \section{Experience}\label{experience}}
 
+\vspace{4pt}
+
 \hypertarget{mccourt-global-technology-aug-2023-present}{%
 \subsection{\texorpdfstring{McCourt Global Technology \hfill \small Aug
 2023 --
 Present}{McCourt Global Technology Aug 2023 -- Present}}\label{mccourt-global-technology-aug-2023-present}}
 
-\vspace{-3pt}
-
-\hypertarget{sr.-software-engineer-project-liberty-labs-jan-2025-present}{%
-\subsubsection{\texorpdfstring{\small Sr.~Software Engineer (Project
-Liberty Labs) \hfill \small Jan 2025 --
-Present}{Sr.~Software Engineer (Project Liberty Labs) Jan 2025 -- Present}}\label{sr.-software-engineer-project-liberty-labs-jan-2025-present}}
-
-\vspace{-3pt}
+\hypertarget{sr.-software-engineer-frequency-access-team-jan-2025-present}{%
+\subsubsection{\texorpdfstring{\small Sr.~Software Engineer (Frequency
+Access Team) \hfill \small Jan 2025 --
+Present}{Sr.~Software Engineer (Frequency Access Team) Jan 2025 -- Present}}\label{sr.-software-engineer-frequency-access-team-jan-2025-present}}
 
 Promoted within a year for outstanding performance and taking ownership
 of projects.
@@ -169,18 +169,21 @@ of projects.
   Researched and implemented a variety of cryptographic capabilities
   (e.g., key exchange).
 \item
+  Designed the architecture for mobile client authentication with JWTs
+  and refresh tokens.
+\item
   \textbf{Stack}: Kotlin, Spring, Svelte, Typescript, Redis, and
   Postgres
 \end{itemize}
 
-\hypertarget{software-engineer-project-liberty-labs-jan-2024-jan-2025}{%
-\subsubsection{\texorpdfstring{\small Software Engineer (Project Liberty
-Labs) \hfill \small Jan 2024 -- Jan
-2025}{Software Engineer (Project Liberty Labs) Jan 2024 -- Jan 2025}}\label{software-engineer-project-liberty-labs-jan-2024-jan-2025}}
+\hypertarget{software-engineer-frequency-access-team-jan-2024-jan-2025}{%
+\subsubsection{\texorpdfstring{\small Software Engineer (Frequency
+Access Team) \hfill \small Jan 2024 -- Jan
+2025}{Software Engineer (Frequency Access Team) Jan 2024 -- Jan 2025}}\label{software-engineer-frequency-access-team-jan-2024-jan-2025}}
 
-Transferred to a back-end team building user authentication and account
-management for a social media platform (Frequency) backed by on an open
-protocol over a blockchain.
+Transferred to a full-stack team building an SSO and account management
+web application for a social media platform (Frequency) backed by on an
+open protocol.
 
 \begin{itemize}
 \tightlist
@@ -193,16 +196,19 @@ protocol over a blockchain.
 \item
   Built out a Spring-Boot service for sending texts with SMS fraud
   prevention logic.
+\item
+  Implemented phone number blocking based on arbitrary prefixes via a
+  Trie.
 \end{itemize}
 
-\hypertarget{software-engineer-elemint-aug-2023-jan-2024}{%
-\subsubsection{\texorpdfstring{\small Software Engineer (Elemint)
+\hypertarget{software-engineer-elemint-team-aug-2023-jan-2024}{%
+\subsubsection{\texorpdfstring{\small Software Engineer (Elemint Team)
 \hfill \small Aug 2023 -- Jan
-2024}{Software Engineer (Elemint) Aug 2023 -- Jan 2024}}\label{software-engineer-elemint-aug-2023-jan-2024}}
+2024}{Software Engineer (Elemint Team) Aug 2023 -- Jan 2024}}\label{software-engineer-elemint-team-aug-2023-jan-2024}}
 
 Hired to work across the stack and bring functional programming
-experience to a startup building a customer loyalty product for a French
-soccer league.
+experience to a small team building a customer loyalty product for a
+French soccer league.
 
 \begin{itemize}
 \tightlist
@@ -236,35 +242,16 @@ schema registry, code generation, and producer and consumer SDKs.
   Analyzed and optimized AWS usage, resulting in annual savings over
   \$1M.
 \item
+  Created dashboards that enabled faster resolutions to production
+  incidents.
+\item
   \textbf{Stack}: Typelevel Scala, AWS Kinesis,Terraform, and Smithy.
 \end{itemize}
 
-\hypertarget{agot-ai-june-2021-june-2022}{%
-\subsection{\texorpdfstring{Agot AI \hfill \small June 2021 -- June
-2022}{Agot AI June 2021 -- June 2022}}\label{agot-ai-june-2021-june-2022}}
-
-\vspace{-5pt}
-
-\hypertarget{training-data-team-lead}{%
-\subsubsection{\texorpdfstring{\small Training Data Team
-Lead}{Training Data Team Lead}}\label{training-data-team-lead}}
-
-Promoted to lead the team responsible for processing videos and creating
-training labels.
-
-\begin{itemize}
-\tightlist
-\item
-  Planned sprints, conducted interviews, and tracked the team's
-  progress.
-\item
-  Doubled the rate of training data produced through process
-  improvements.
-\end{itemize}
-
-\hypertarget{software-engineer}{%
-\subsubsection{\texorpdfstring{\small Software
-Engineer}{Software Engineer}}\label{software-engineer}}
+\hypertarget{agot-ai-software-engineer-june-2021-june-2022}{%
+\subsection{\texorpdfstring{Agot AI \emph{· \small Software Engineer}
+\hfill \small June 2021 -- June
+2022}{Agot AI · Software Engineer June 2021 -- June 2022}}\label{agot-ai-software-engineer-june-2021-june-2022}}
 
 Hired to develop integrations and algorithms for a computer vision
 feedback system.
@@ -276,6 +263,9 @@ feedback system.
 \item
   Wrote Python libraries for standardizing consuming and producing
   RabbitMQ events
+\item
+  Doubled the rate of training data produced through process
+  improvements.
 \end{itemize}
 
 \hypertarget{skyworks-solutions-software-engineer-intern-jan-2021-june-2021}{%
@@ -286,14 +276,6 @@ Engineer (Intern)} \hfill \small Jan 2021 -- June
 Brought on to assist the audio deep learning team by performing machine
 learning experiments, administering cloud resources (e.g., MongoDB and
 TPU instances), and writing tests.
-
-\begin{itemize}
-\tightlist
-\item
-  Created a Python library for defining weighted finite-state
-  transducers and applying operations (e.g., composition) based on
-  technical papers.
-\end{itemize}
 
 \hypertarget{lucid-software-software-engineer-intern-june-2020-sep-2020}{%
 \subsection{\texorpdfstring{Lucid Software \emph{· \small Software
@@ -329,9 +311,7 @@ Located in Portland, OR.
 
 \textbf{Oregon State University}
 
-\hypertarget{b.s.-computer-science-4.0-gpa-20172021}{%
-\subsubsection{B.S., Computer Science (4.0 GPA)
-2017--2021}\label{b.s.-computer-science-4.0-gpa-20172021}}
+B.S., Computer Science (4.0 GPA) 2017--2021
 
 Relevant courses: Programming Language Fundamentals (Haskell) \& Deep
 Learning.
